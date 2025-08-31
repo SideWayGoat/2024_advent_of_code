@@ -33,7 +33,7 @@ def safe_unsafe(data):
     return safe
 
 def is_safe_sequence(seq):
-    """Check if sequence is strictly monotonic with differences ≤ 3"""
+    """Check if sequence is strictly monotonic with differences <= 3"""
     if len(seq) <= 1:
         return True
     
