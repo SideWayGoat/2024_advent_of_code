@@ -28,7 +28,6 @@ def extract_mul(data: str) -> int:
         print(f'failed with {match} with error {err}')
     
     return total
-            
 
 def main():
     data = read_file()
